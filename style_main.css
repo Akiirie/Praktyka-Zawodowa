@@ -114,3 +114,29 @@ article > div > input:hover{
     background-color: #046db2;
 }
 
+.part1{
+    position: absolute;
+    margin-left: 65%;
+    width: 30px;
+	height: 0;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 300px solid #046db2;
+    transform: rotate(270deg);
+    margin-top: -30.84%;
+}
+
+.part2{
+    position: absolute;
+    margin-left: 65%;
+    width: 30px;
+	height: 0;
+    border-top: 0px solid transparent;
+    border-left: 0px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 300px solid #046db2;
+    transform: rotate(90deg);
+    margin-top: -6.45%;
+}
+
