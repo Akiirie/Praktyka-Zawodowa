@@ -1,0 +1,16 @@
+background: white, #ffffff
+
+nav
+    left-background: #cecdcd
+    li: #ebebeb
+    register: #9e9d9d
+    login: #5e5e5e
+    right-background: #9e9d9d
+
+home/login: #f4f4f4
+
+main
+blue: #046db2
+background: #fafafa
+input background: #f0f0f0
+button background: #5e5e5e
