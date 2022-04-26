@@ -7,7 +7,7 @@
     font-weight: 700;
 }
 
-.nav_Login, .nav_Login a{
+.nav_Login, .nav_Login > a{
     background-color: #5e5e5e;
     color: white;
 }
@@ -27,7 +27,7 @@ li{
     background-color: #ebebeb;
 }
 
-li a{
+li > a{
     display: block;
     text-align: center;
     text-decoration: none;
@@ -35,7 +35,12 @@ li a{
     padding: 15px 25px;
 }
 
-li:hover, li a:hover{
+li:hover, li > a:hover{
+    background-color: #cecdcd;
+    color: black;
+}
+
+.nav_Login > a:hover, .nav_Register > a:hover{
     background-color: #046db2;
     color: white;
 }
@@ -45,13 +50,13 @@ li:hover, li a:hover{
     margin: 0;
 }
 
-.mini_Nav h4{
+.mini_Nav > h4{
     font-weight: normal; 
     margin: 0;
     margin-left: 9%;
     padding: 3px;
 }
 
-.mini_Nav a{
+.mini_Nav > a{
     color: #046db2;
 }

@@ -26,6 +26,10 @@ article{
     padding: 20px;
     margin-top: 2%;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    /*box-shadow: inset 0 1px 3px rgb(184, 184, 184);*/
 }
 
 form{
@@ -39,8 +43,8 @@ form > h4{
     font-weight: 400;
 }
 
-form > input{
-    width: 96%;
+form > input[type=text], form > input[type=password]{
+    width: 97%;
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -51,5 +55,62 @@ form > input{
 }
 
 form > input:focus{
-    background-color: rgba(4, 109, 178, 0.2);
+    background-color: rgba(0, 0, 0, 0.1);
 }
+
+form > div{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+form > div > a{
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+}
+
+form > div > a:hover{
+    text-decoration: none;
+    color: #046db2;
+}
+
+form > div > input[type=button]{
+    background-color: #5e5e5e;
+    width: 50%;
+    height: 45px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+
+article > div{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+article > div > h4{
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+article > div > input{
+    background-color: #5e5e5e;
+    width: 180%;
+    border: none;
+    color: white;
+    height: 45px;
+}
+
+form > div > input[type=button]:hover{
+    background-color: #046db2;
+}
+
+article > div > input:hover{
+    background-color: #046db2;
+}
+
