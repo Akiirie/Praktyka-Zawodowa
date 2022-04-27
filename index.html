@@ -30,9 +30,9 @@
 
             <article>
                 <form>
-                    <h4>Username</h4><input type="text" name="username" maxlength="100"><br/>
-                    <h4>Email Address</h4><input type="text" name="email"><br/>
-                    <h4>Password</h4><input type="password" name="password" minlength="7" maxlength="25"><br/>
+                    <h4>Username</h4><input type="text" name="username" maxlength="100" required><br/>
+                    <h4>Email Address</h4><input type="email" name="email" pattern=".+@.+..+" required><br/>
+                    <h4>Password</h4><input type="password" name="password" pattern=".{7,25}" required><br/>
                     <div>
                         <a href="#">Forgot Password?</a>
                         <input type="button" value="Login">
@@ -44,8 +44,8 @@
                 </div>
             </article>
 
-            <div class="part1"></div>
-            <div class="part2"></div>
+            <svg class="part1"></svg>
+            <svg class="part2"></svg>
         </main>
         <footer>
         </footer>
